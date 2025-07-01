@@ -9,7 +9,7 @@ import exp_router from './routes/expenseRouter.js';
 const app = express();
 dotenv.config();
 app.use(cors({
-  origin: process.env.frontend_URL, // or your deployed frontend URL
+  origin: "https://expense-tracker-website-uieu.onrender.com/", // or your deployed frontend URL
   credentials: true
 }));
 app.use(express.json());
