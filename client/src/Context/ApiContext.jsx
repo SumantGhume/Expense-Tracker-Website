@@ -1,6 +1,5 @@
 import React, { createContext, useContext } from "react";
 
-
 const BASE_URL = "https://expense-tracker-website-6w12.onrender.com"; 
 
 const ApiContext = createContext();

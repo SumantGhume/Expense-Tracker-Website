@@ -63,7 +63,9 @@ navigate("/dashboard");
               id="email"
               name="email"
               onChange={handleChange}
+              autoComplete="email"
               required
+
             />
           </div>
 
@@ -75,6 +77,7 @@ navigate("/dashboard");
               id="password"
               name="password"
               onChange={handleChange}
+              autoComplete="password"
               required
             />
           </div>
