@@ -58,7 +58,9 @@ const Register = () => {
               name="username"
               value={formData.username}
               onChange={handleChange}
+              autoComplete="username"
               required
+              
             />
           </div>
 
@@ -71,6 +73,7 @@ const Register = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
+              autoComplete="email"
               required
             />
           </div>
@@ -84,6 +87,7 @@ const Register = () => {
               name="password"
               value={formData.password}
               onChange={handleChange}
+              autoComplete="password"
               required
             />
           </div>
